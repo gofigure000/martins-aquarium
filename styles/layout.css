@@ -1,0 +1,29 @@
+#fishList {
+  display: grid;
+  grid-template-columns: 2fr;
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
+  justify-content: left;
+  gap: 20px;
+  padding: 20px;
+  border: 2px dashed #333;
+}
+
+#tipList {
+  display: grid;
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
+  justify-content: right;
+  gap: 20px;
+  padding: 20px;
+  border: 2px dashed #333;
+}
+
+#locationList {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: bottom;
+  gap: 20px;
+  padding: 20px;
+  border: 2px dashed #333;
+}
