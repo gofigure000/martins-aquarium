@@ -1,58 +1,26 @@
-.main {
+main {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 20px;
-  width: 100px;
 }
 
-.fish {
-  flex-basis: 600px;
-  flex-grow: 1;
-  max-width: 400px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  overflow: scroll;
-  transition: transform 0.3s ease;
+#holyFishList {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+  gap: 20px;
 }
 
-.fish:hover {
-  transform: translateY(-5px);
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+#soldierFishList {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+  gap: 20px;
 }
 
-.fish__image {
-  max-width: 5rem;
-}
-
-.fish__name {
-  padding: 20px;
-}
-
-.fish__species {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #333333;
-}
-
-.fish__length {
-  font-size: 14px;
-  color: #666666;
-  line-height: 1.5;
-}
-
-.fish__location {
-  font-size: 14px;
-  color: #666666;
-  line-height: 1.5;
-}
-
-.fish__diet {
-  font-size: 14px;
-  color: #666666;
-  line-height: 1.5;
+#regularFishList {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+  gap: 20px;
 }

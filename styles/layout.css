@@ -1,8 +1,48 @@
-#fishList {
+body {
+  width: auto;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+header {
+  border: 2px solid;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.fish {
+  width: 300px;
+  border: 2px solid;
+  padding: 5px;
+}
+
+#holyFishList {
   display: grid;
-  grid-template-columns: 2fr;
   flex-direction: column;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  padding: 20px;
+  border: 2px dashed #333;
+}
+
+#soldierFishList {
+  display: grid;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  padding: 20px;
+  border: 2px dashed #333;
+}
+
+#regularFishList {
+  display: grid;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: left;
   gap: 20px;
   padding: 20px;
@@ -12,8 +52,7 @@
 #tipList {
   display: grid;
   flex-direction: column;
-  /*flex-wrap: wrap;*/
-  justify-content: right;
+  justify-content: left;
   gap: 20px;
   padding: 20px;
   border: 2px dashed #333;
@@ -21,6 +60,7 @@
 
 #locationList {
   display: block;
+  width: auto;
   flex-wrap: wrap;
   justify-content: bottom;
   gap: 20px;

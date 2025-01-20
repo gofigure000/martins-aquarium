@@ -27,3 +27,33 @@ export const renderLocationToDOM = (locationHTML) => {
     console.error('Could not find element with id "locationList"');
   }
 };
+
+export const renderHolyFishToDOM = (holyFishHTML) => {
+  const holyFishList = document.getElementById("holyFishList");
+
+  if (holyFishList) {
+    holyFishList.innerHTML = holyFishHTML;
+  } else {
+    console.error('Could not find element with id "holyFishList"');
+  }
+};
+
+export const renderSoldierFishToDOM = (soldierFishHTML) => {
+  const soldierFishList = document.getElementById("soldierFishList");
+
+  if (soldierFishList) {
+    soldierFishList.innerHTML = soldierFishHTML;
+  } else {
+    console.error('Could not find element with id "soldierFishList"');
+  }
+};
+
+export const renderRegularFishToDOM = (regularFishHTML) => {
+  const regularFishList = document.getElementById("regularFishList");
+
+  if (regularFishList) {
+    regularFishList.innerHTML = regularFishHTML;
+  } else {
+    console.error('Could not find element with id "regularFishList"');
+  }
+};
